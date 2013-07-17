@@ -6,7 +6,8 @@ source('~/readBruker.R')
 # The returned matrix has columns as the following format:
 #         [ppm, spectrum1, spectrum2, ...]. 
 # Interpolation may be performed if spectra have different ppm scales.
+# BrukerDataDir: directory for bruker data files
 sa<-readBruker(BrukerDataDir)  
-# or if zipped Bruker files, example files from: http://www.ebi.ac.uk/metabolights/MTBLS1
+# or if zipped Bruker files, example to read in data in MTBLS1
 sa<-readBrukerZipped(BrukerDataZipDir)
 
