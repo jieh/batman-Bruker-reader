@@ -1,4 +1,3 @@
-
 source('~/readBrukerZipped.R')
 source('~/readBruker.R')
 # Read in multiple raw binary Bruker NMR spectra (1D) from a specified directory, 
